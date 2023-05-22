@@ -1,2 +1,0 @@
-!function(){"use strict";var e=document.querySelector(".clients"),t=e.querySelector(".left"),c=e.querySelector(".right"),r=e.querySelector(".clients__cards");t.addEventListener("click",(function(e){e.preventDefault(),r.scrollLeft+=-320})),c.addEventListener("click",(function(e){e.preventDefault(),r.scrollLeft+=320}))}();
-//# sourceMappingURL=index.ff7cf1e3bd64509a17fe.js.map

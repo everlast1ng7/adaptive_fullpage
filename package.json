@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx cross-env NODE_ENV=development webpack --mode development",
     "build": "npx cross-env NODE_ENV=development webpack --mode production",
-    "start": "npx cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+    "start": "npx cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": ">0.25%, not dead",
   "keywords": [
@@ -35,5 +36,14 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everlast1ng7/adaptive_fullpage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/everlast1ng7/adaptive_fullpage/issues"
+  },
+  "homepage": "https://github.com/everlast1ng7/adaptive_fullpage#readme"
 }
